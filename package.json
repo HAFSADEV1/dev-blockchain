@@ -2,8 +2,9 @@
   "name": "dev-crypto",
   "version": "1.0.0",
   "description": "create your own crypto blockchain using typescript",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "start": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/HAFSADEV1/dev-blockchain/issues"
   },
-  "homepage": "https://github.com/HAFSADEV1/dev-blockchain#readme"
+  "homepage": "https://github.com/HAFSADEV1/dev-blockchain#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1"
+  }
 }
